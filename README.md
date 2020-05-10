@@ -1,7 +1,10 @@
 # GR Count
 
-### A tool for ...
+[![N|Solid](https://raw.githubusercontent.com/Mitogenie/GR_Count/master/misc/logo.png)](https://mic.med.virginia.edu/zong/)
 
+### A tool to analyze mutant cell expansion kinetics.
+
+![Build Status](https://raw.githubusercontent.com/Mitogenie/GR_Count/master/misc/ver.png)
 
 ##### User Interface
 GR Count offers interactive, semi graphical user interface through Jupyter notebooks.
@@ -22,13 +25,13 @@ $ pip install opencv-python==3.4.2.17
 ### Where to start your analysis?
 ##### 1) Download the files on your computer
 Once you have satistfied the requirements, you can start your analysis by downloading or cloning this repository on your computer. The simplest way is to download the whole directory by pressing the green button (top right) and download the ZIP file.
-##### 2) Ru GR_Count file using Jupyter notebook 
-##### 3) Follow the step-by-step instructions in the tool you are using
+##### 2) Run the GR_Count file using Jupyter notebook 
+##### 3) Follow the step-by-step instructions in the notebook to analyze your data
 
 #### What to know before use
-- Input: Individual images extracted exported from your stach of images using ImageJ
+- Input: Individual sequence of images exported from your stack of images using ImageJ
   - Images should have the following naming format: name_of_the_image_z***_c***.tif
-    - GR Count reads the stack and channel (z*** and c***) info from each image to automate the measurements. So this formatting is required for the code to run.
+    - GR Count reads the stack and channel info ((z*** and c***) from each image to automate the measurements. So this formatting is required for the code to run.
       - Example: RGB_z011_c001: is the channel1 (red) from stack 11.
   - Number channels with stains: 2
       - Red and Green channels should be stained
@@ -37,14 +40,13 @@ Once you have satistfied the requirements, you can start your analysis by downlo
   - Stack_summary.csv: Includes statistical summary of the measured features across the stack. 
 
 ###### Instructions
-- Run GR_Count.ipynb using Jupyter notebook.
+- Run the GR_Count.ipynb using Jupyter notebook.
     - You may find this video on Jupyter notebooks very helpful: [Watch Here](https://youtu.be/HW29067qVWk)
         - Note: We are not affiliated with the owner of the above video. We just found this video on Jupyter notebooks very helpful, There are plenty of great tutorials about this subject, and you may use any source your prefer.
 - The Jupyter notebook file provides the users with step-by-step instructions to analyze their data.
 
 ###### Development
 - 500+ images (3 stack images) were used to develop and test GR Count.
-
 
 #### Nomenclature of Features (What does each measure feature mean?)
 ###### Red_sum
@@ -59,14 +61,12 @@ Once you have satistfied the requirements, you can start your analysis by downlo
 #### List of the libraries we used for development (A/Z)
 - copy
 - cv2
-- datetime
-- math
+- ipywidgets
 - matplotlib.pyplot
 - numpy
 - os
 - pandas
-- random
-- scipy
-- shutil
+- re
+- seaborn
 - skimage
 
