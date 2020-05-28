@@ -48,7 +48,7 @@ Once you have satistfied the requirements, you can start your analysis by downlo
 ###### Development
 - 500+ images (3 stack images) were used to develop and test GR Count.
 
-#### Nomenclature of Features (What does each measure feature mean?)
+#### Nomenclature of Features (What does each measured feature mean?)
 ###### Red Area
 - Total red signal at each layer of the stack
 ###### Grean Area
