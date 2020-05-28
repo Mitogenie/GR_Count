@@ -49,14 +49,22 @@ Once you have satistfied the requirements, you can start your analysis by downlo
 - 500+ images (3 stack images) were used to develop and test GR Count.
 
 #### Nomenclature of Features (What does each measure feature mean?)
-###### Red_sum
+###### Red Area
 - Total red signal at each layer of the stack
-###### Grean_sum
+###### Grean Area
 - Total green signal at each layer of the stack
 ###### Red/Green Ratio
 - The ratio of the red signal to green signal at each layer of the stack
-###### Red/Green Ratio
+###### Green/Red Ratio
 - The ratio of the green signal to red signal at each layer of the stack
+###### Total Green Area along the Stack
+- The sum of green area of all the layers of the stack
+###### Total Red Area along the Stack
+- The sum of red area of all the layers of the stack
+###### Green/Red Ratio of the stack
+- The the ratio of "Total Green Area" to "Total Red Area"
+###### Red/Green Ratio of the stack
+- The the ratio of "Total Red Area" to "Total Green Area"
 
 #### List of the libraries we used for development (A/Z)
 - copy
